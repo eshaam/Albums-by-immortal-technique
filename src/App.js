@@ -1,25 +1,94 @@
-import React from "react"
-
+import React , { createRef } from "react"
+import Header from '../src/layout/header'
 class App extends React.Component {
 
   constructor(props) {
     super(props);
     this.state = {
+      songs: [],
       playing: false,
-      index: 0
+      index: 0,
+      selectedTrack: null,
+      player: "stopped"
     };
+
+    this.playSong = this.playSong.bind(this);
+    this.audioPlayerRef = createRef();
+
 
   }
 
 
   componentDidMount = () => {
+    const that = this;
+
     console.log('hey');
+    fetch('songs.json')
+    .then(response => response.json())
+    .then(data =>
+      that.setState({ songs: data })
+    );
+
+  }
+
+  playSong(id) {
+    console.log('Click happened');
+    const filteredObject = this.state.songs.filter(song => song.id === id);
+    console.log(filteredObject[0]);
+    // this.setState(prevState => {
+    //    selectedTrack: filteredObject[0]
+    // })
+
+    this.setState(prevState =>{
+      return{
+           ...prevState,
+           selectedTrack : filteredObject[0]
+      }
+   })
+    console.log(this.state);
+
+    this.audioPlayerRef.current.src = filteredObject[0].path;
+    this.audioPlayerRef.current.play();
+  }
+
+  filterByAlbumName = (albumName) => {
+    const filteredObject = this.state.songs.filter(song => song.album === albumName);
+    return filteredObject;
   }
 
   render() {
     return (
       <React.Fragment>
-        <div className="container">
+        <Header />
+        <div className="container-fluid">
+
+            <div className="jumbotron">
+            <h1 class="display-4">Hello, world!</h1>
+            <audio ref={this.audioPlayerRef} controls></audio>
+
+            </div>
+
+            <div className="row">
+              <div className="col-sm-6">
+                <h3>Immortal Technique - Revolutionary Vol. 1</h3>
+
+                {
+                  this.filterByAlbumName('Revoltionary Vol. 1').map((song) => {
+                    return (
+                      <a onClick={() => this.playSong(song.id)}>
+                        <li key={song.id}>
+                        ID: {song.id}<br/>
+                        Title: {song.name}<br/>
+                        Album: {song.album}<br/>
+                        </li>
+                    </a>
+                   )})
+                }
+              </div>
+              <div className="col-sm-6">
+                <h3>Immortal Technique - RRevolutionary Vol. 2</h3>
+              </div>
+            </div>
 
         </div>
 

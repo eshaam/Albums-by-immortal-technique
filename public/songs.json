@@ -1,0 +1,24 @@
+[
+  {
+    "id": 1,
+    "album": "Revoltionary Vol. 1",
+    "artist": "Immortal Technique",
+    "name": "Creation and Destruction",
+    "path": "albums/Revolutionary_Vol.1/01CreationandDestruction.mp3"
+  },
+  {
+    "id": 2,
+    "album": "Revoltionary Vol. 1",
+    "artist": "Immortal Technique",
+    "name": "Dominant Species",
+    "path": "albums/Revolutionary_Vol.1/02DominantSpecies.mp3"
+  },
+  {
+    "id": 3,
+    "album": "Revoltionary Vol. 1",
+    "artist": "Immortal Technique",
+    "name": "Positive Balance",
+    "path": "albums/Revolutionary_Vol.1/03PositiveBalance.mp3"
+
+  }
+]
