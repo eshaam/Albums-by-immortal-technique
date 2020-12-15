@@ -20,5 +20,101 @@
     "name": "Positive Balance",
     "path": "albums/Revolutionary_Vol.1/03PositiveBalance.mp3"
 
+  },
+  {
+    "id": 4,
+    "album": "Revoltionary Vol. 1",
+    "artist": "Immortal Technique",
+    "name": "The Getaway",
+    "path": "albums/Revolutionary_Vol.1/04TheGetaway.mp3"
+
+  },
+  {
+    "id": 5,
+    "album": "Revoltionary Vol. 1",
+    "artist": "Immortal Technique",
+    "name": "Beef and Broccoli",
+    "path": "albums/Revolutionary_Vol.1/05BeefandBroccoli.mp3"
+
+  },
+  {
+    "id": 6,
+    "album": "Revoltionary Vol. 1",
+    "artist": "Immortal Technique",
+    "name": "No Me Importa",
+    "path": "albums/Revolutionary_Vol.1/06NoMeImporta.mp3"
+
+  },
+  {
+    "id": 7,
+    "album": "Revoltionary Vol. 1",
+    "artist": "Immortal Technique",
+    "name": "Top Of The Food Chain (Remix)",
+    "path": "albums/Revolutionary_Vol.1/07TopOfTheFoodChain(Remix).mp3"
+
+  },
+  {
+    "id": 8,
+    "album": "Revoltionary Vol. 1",
+    "artist": "Immortal Technique",
+    "name": "The Poverty Of Philosophy",
+    "path": "albums/Revolutionary_Vol.1/08ThePovertyOfPhilosophy.mp3"
+
+  },
+  {
+    "id": 9,
+    "album": "Revoltionary Vol. 1",
+    "artist": "Immortal Technique",
+    "name": "Revolutionary",
+    "path": "albums/Revolutionary_Vol.1/09Revolutionary.mp3"
+
+  },
+  {
+    "id": 10,
+    "album": "Revoltionary Vol. 1",
+    "artist": "Immortal Technique",
+    "name": "Dance With The Devil",
+    "path": "albums/Revolutionary_Vol.1/11DanceWithTheDevil.mp3"
+
+  },
+  {
+    "id": 11,
+    "album": "Revoltionary Vol. 1",
+    "artist": "Immortal Technique",
+    "name": "The Prophecy",
+    "path": "albums/Revolutionary_Vol.1/12TheProphecy.mp3"
+
+  },
+  {
+    "id": 12,
+    "album": "Revoltionary Vol. 1",
+    "artist": "Immortal Technique",
+    "name": "Understand Why",
+    "path": "albums/Revolutionary_Vol.1/13UnderstandWhy.mp3"
+
+  },
+  {
+    "id": 13,
+    "album": "Revoltionary Vol. 1",
+    "artist": "Immortal Technique",
+    "name": "No Mercy",
+    "path": "albums/Revolutionary_Vol.1/14NoMercy.mp3"
+
+  },
+  {
+    "id": 14,
+    "album": "Revoltionary Vol. 1",
+    "artist": "Immortal Technique",
+    "name": "The Illest",
+    "path": "albums/Revolutionary_Vol.1/15TheIllest.mp3"
+
+  },
+  {
+    "id": 15,
+    "album": "Revoltionary Vol. 1",
+    "artist": "Immortal Technique",
+    "name": "Speak Your Mind",
+    "path": "albums/Revolutionary_Vol.1/16SpeakYourMind.mp3"
+
   }
 ]

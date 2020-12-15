@@ -29,6 +29,17 @@ class App extends React.Component {
       that.setState({ songs: data })
     );
 
+    this.audioPlayerRef.current.addEventListener("ended",function() {
+      console.log('ended');
+      that.playNext();
+    });
+
+
+  }
+
+  playNext() {
+    let currentSong = this.state.selectedTrack
+    this.playSong(currentSong.id + 1)
   }
 
   playSong(id) {
@@ -77,9 +88,7 @@ class App extends React.Component {
                     return (
                       <a onClick={() => this.playSong(song.id)}>
                         <li key={song.id}>
-                        ID: {song.id}<br/>
-                        Title: {song.name}<br/>
-                        Album: {song.album}<br/>
+                        {song.name}<br/>
                         </li>
                     </a>
                    )})
