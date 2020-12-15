@@ -116,5 +116,149 @@
     "name": "Speak Your Mind",
     "path": "albums/Revolutionary_Vol.1/16SpeakYourMind.mp3"
 
+  },
+  {
+    "id": 16,
+    "album": "Revoltionary Vol. 2",
+    "artist": "Immortal Technique",
+    "name": "Revolutionary Intro",
+    "path": "albums/Revolutionary_Vol.2/01RevolutionaryIntro.mp3"
+
+  },
+  {
+    "id": 17,
+    "album": "Revoltionary Vol. 2",
+    "artist": "Immortal Technique",
+    "name": "Point Of No Return",
+    "path": "albums/Revolutionary_Vol.2/02PointOfNoReturn.mp3"
+
+  },
+  {
+    "id": 18,
+    "album": "Revoltionary Vol. 2",
+    "artist": "Immortal Technique",
+    "name": "Peruvian Cocaine",
+    "path": "albums/Revolutionary_Vol.2/03PeruvianCocaine.mp3"
+
+  },
+  {
+    "id": 19,
+    "album": "Revoltionary Vol. 2",
+    "artist": "Immortal Technique",
+    "name": "Harlem Streets",
+    "path": "albums/Revolutionary_Vol.2/04HarlemStreets.mp3"
+
+  },
+  {
+    "id": 20,
+    "album": "Revoltionary Vol. 2",
+    "artist": "Immortal Technique",
+    "name": "Obnoxious",
+    "path": "albums/Revolutionary_Vol.2/05Obnoxious.mp3"
+
+  },
+  {
+    "id": 21,
+    "album": "Revoltionary Vol. 2",
+    "artist": "Immortal Technique",
+    "name": "The Message and The Money",
+    "path": "albums/Revolutionary_Vol.2/06TheMessageandTheMoney.mp3"
+
+  },
+  {
+    "id": 22,
+    "album": "Revoltionary Vol. 2",
+    "artist": "Immortal Technique",
+    "name": "Industrial Revolution",
+    "path": "albums/Revolutionary_Vol.2/07IndustrialRevolution.mp3"
+
+  },
+  {
+    "id": 23,
+    "album": "Revoltionary Vol. 2",
+    "artist": "Immortal Technique",
+    "name": "Crossing The Boundary",
+    "path": "albums/Revolutionary_Vol.2/08CrossingTheBoundary.mp3"
+
+  },
+  {
+    "id": 24,
+    "album": "Revoltionary Vol. 2",
+    "artist": "Immortal Technique",
+    "name": "Sierra Maestro",
+    "path": "albums/Revolutionary_Vol.2/09SierraMaestro.mp3"
+
+  },
+  {
+    "id": 25,
+    "album": "Revoltionary Vol. 2",
+    "artist": "Immortal Technique",
+    "name": "The 4th Branch",
+    "path": "albums/Revolutionary_Vol.2/10The4thBranch.mp3"
+
+  },
+  {
+    "id": 26,
+    "album": "Revoltionary Vol. 2",
+    "artist": "Immortal Technique",
+    "name": "Internally Bleeding",
+    "path": "albums/Revolutionary_Vol.2/11InternallyBleeding.mp3"
+
+  },
+  {
+    "id": 27,
+    "album": "Revoltionary Vol. 2",
+    "artist": "Immortal Technique",
+    "name": "Homeland and HipHop",
+    "path": "albums/Revolutionary_Vol.2/12HomelandandHipHop.mp3"
+
+  },
+  {
+    "id": 28,
+    "album": "Revoltionary Vol. 2",
+    "artist": "Immortal Technique",
+    "name": "The Cause Of Death",
+    "path": "albums/Revolutionary_Vol.2/13TheCauseOfDeath.mp3"
+
+  },
+  {
+    "id": 29,
+    "album": "Revoltionary Vol. 2",
+    "artist": "Immortal Technique",
+    "name": "Freedom Of Speech",
+    "path": "albums/Revolutionary_Vol.2/14FreedomOfSpeech.mp3"
+
+  },
+  {
+    "id": 30,
+    "album": "Revoltionary Vol. 2",
+    "artist": "Immortal Technique",
+    "name": "Leaving The Past",
+    "path": "albums/Revolutionary_Vol.2/15LeavingThePast.mp3"
+
+  },
+  {
+    "id": 31,
+    "album": "Revoltionary Vol. 2",
+    "artist": "Immortal Technique",
+    "name": "Truth's Razors",
+    "path": "albums/Revolutionary_Vol.2/16Truth'sRazors.mp3"
+
+  },
+  {
+    "id": 32,
+    "album": "Revoltionary Vol. 2",
+    "artist": "Immortal Technique",
+    "name": "You Never Know",
+    "path": "albums/Revolutionary_Vol.2/17YouNeverKnow.mp3"
+
+  },
+  {
+    "id": 33,
+    "album": "Revoltionary Vol. 2",
+    "artist": "Immortal Technique",
+    "name": "One(Remix)",
+    "path": "albums/Revolutionary_Vol.2/18One(Remix).mp3"
+
   }
 ]
