@@ -81,7 +81,7 @@ class App extends React.Component {
 
             <div className="row">
               <div className="col-sm-6">
-                <h3>Immortal Technique - Revolutionary Vol. 1</h3>
+                <h3>1. Immortal Technique - Revolutionary Vol. 1</h3>
 
                 {
                   this.filterByAlbumName('Revoltionary Vol. 1').map((song) => {
@@ -95,7 +95,7 @@ class App extends React.Component {
                 }
               </div>
               <div className="col-sm-6">
-                <h3>Immortal Technique - Revolutionary Vol. 2</h3>
+                <h3>2. Immortal Technique - Revolutionary Vol. 2</h3>
                 {
                   this.filterByAlbumName('Revoltionary Vol. 2').map((song) => {
                     return (
@@ -113,7 +113,7 @@ class App extends React.Component {
 
             <div className="row">
               <div className="col-sm-6">
-                <h3>Immortal Technique - The First Passage</h3>
+                <h3>3. Immortal Technique - The First Passage</h3>
 
                 {
                   this.filterByAlbumName('The First Passage').map((song) => {
@@ -127,7 +127,18 @@ class App extends React.Component {
                 }
               </div>
               <div className="col-sm-6">
+              <h3>4. Immortal Technique - The Final Passage</h3>
 
+                    {
+                      this.filterByAlbumName('The Final Passage').map((song) => {
+                        return (
+                          <a onClick={() => this.playSong(song.id)}>
+                            <li key={song.id}>
+                            {song.name}<br/>
+                            </li>
+                        </a>
+                      )})
+                    }
               </div>
             </div>
 
