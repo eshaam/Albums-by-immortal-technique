@@ -260,5 +260,93 @@
     "name": "One(Remix)",
     "path": "albums/Revolutionary_Vol.2/18One(Remix).mp3"
 
+  },
+  {
+    "id": 34,
+    "album": "The First Passage",
+    "artist": "Immortal Technique",
+    "name": "Seeds of Sound",
+    "path": "albums/TheFirstPassage/01SeedsofSound.mp3"
+
+  },
+  {
+    "id": 35,
+    "album": "The First Passage",
+    "artist": "Immortal Technique",
+    "name": "Coast Control",
+    "path": "albums/TheFirstPassage/02CoastControl.mp3"
+
+  },
+  {
+    "id": 36,
+    "album": "The First Passage",
+    "artist": "Immortal Technique",
+    "name": "Learning From Latin America Feat Mumia Abu Jamal",
+    "path": "albums/TheFirstPassage/03LearningFromLatinAmericaFeatMumiaAbuJamal.mp3"
+
+  },
+  {
+    "id": 37,
+    "album": "The First Passage",
+    "artist": "Immortal Technique",
+    "name": "Freestyle (Produced By Kno)",
+    "path": "albums/TheFirstPassage/04Freestyle(ProducedByKno).mp3"
+
+  },
+  {
+    "id": 38,
+    "album": "The First Passage",
+    "artist": "Immortal Technique",
+    "name": "Radio Active",
+    "path": "albums/TheFirstPassage/05RadioActive.mp3"
+
+  },
+  {
+    "id": 39,
+    "album": "The First Passage",
+    "artist": "Immortal Technique",
+    "name": "Prank Call",
+    "path": "albums/TheFirstPassage/06PrankCall.mp3"
+
+  },
+  {
+    "id": 40,
+    "album": "The First Passage",
+    "artist": "Immortal Technique",
+    "name": "Geniewiz Unspeakable Remix",
+    "path": "albums/TheFirstPassage/08GeniewizUnspeakableRemix.mp3"
+
+  },
+  {
+    "id": 41,
+    "album": "The First Passage",
+    "artist": "Immortal Technique",
+    "name": "The War Vs Us All Feat Mumia Abu Jamal",
+    "path": "albums/TheFirstPassage/09TheWarVsUsAllFeatMumiaAbuJamal.mp3"
+
+  },
+  {
+    "id": 42,
+    "album": "The First Passage",
+    "artist": "Immortal Technique",
+    "name": "Tech",
+    "path": "albums/TheFirstPassage/09Tech.mp3"
+
+  },
+  {
+    "id": 42,
+    "album": "The First Passage",
+    "artist": "Immortal Technique",
+    "name": "Virtuosic Veracity",
+    "path": "albums/TheFirstPassage/10VirtuosicVeracity.mp3"
+
+  },
+  {
+    "id": 42,
+    "album": "The First Passage",
+    "artist": "Immortal Technique",
+    "name": "Slam From The Streets Round 2 - Immortal Technique vs Smoke Dizza",
+    "path": "albums/TheFirstPassage/12SlamFromTheStreetsRound2-ImmortalTechniquevsSmokeDizza.mp3"
+
   }
 ]

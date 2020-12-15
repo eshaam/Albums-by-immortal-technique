@@ -109,6 +109,28 @@ class App extends React.Component {
               </div>
             </div>
 
+
+
+            <div className="row">
+              <div className="col-sm-6">
+                <h3>Immortal Technique - The First Passage</h3>
+
+                {
+                  this.filterByAlbumName('The First Passage').map((song) => {
+                    return (
+                      <a onClick={() => this.playSong(song.id)}>
+                        <li key={song.id}>
+                        {song.name}<br/>
+                        </li>
+                    </a>
+                   )})
+                }
+              </div>
+              <div className="col-sm-6">
+
+              </div>
+            </div>
+
         </div>
 
 
