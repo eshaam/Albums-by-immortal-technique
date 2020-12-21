@@ -59,6 +59,15 @@ class App extends React.Component {
 
   }
 
+  playRandom() {
+    let min = 1
+    let max = 184
+    const r = Math.random()*(max-min) + min
+    let random = Math.floor(r)
+
+    this.playSong(random)
+  }
+
   playSong(id) {
     console.log('Click happened');
     const filteredObject = this.state.songs.filter(song => song.id === id);
@@ -112,7 +121,7 @@ class App extends React.Component {
 
               <div class="btn-group" role="group" aria-label="Basic example">
                 <button type="button" class="btn btn-secondary" onClick={() => this.playNext()}>Play Next</button>
-                <button type="button" class="btn btn-secondary">Middle</button>
+                <button type="button" class="btn btn-secondary" onClick={() => this.playRandom()} >Play Random</button>
                 <button type="button" class="btn btn-secondary" onClick={() => this.playPrev()}>Play Previous</button>
               </div>
             </div>
