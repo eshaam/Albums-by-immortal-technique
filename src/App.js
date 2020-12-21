@@ -75,6 +75,17 @@ class App extends React.Component {
         <Header />
         <div className="container-fluid">
 
+            <div className="row">
+              <div className="col-sm-12">
+                <p className="text-muted">Immortal Technique is an <a target="_blank" href="https://en.wikipedia.org/wiki/Underground_hip_hop">Underground Hip Hop</a> artist.
+                   </p>
+                   <p className="text-muted">I have been a student of his music since his first album back in 2001. Encoded is his music is views of the world and its issues in a clever, mind blowing way. </p>
+                   <p className="text-muted">This website where you can stream all his tracks is inspired by his last album to date (The Martyr - Burn This), where he calls for those listening burn is music for everyone.</p>
+                   <p className="text-muted">Immortal Technique's music has the capability to change thinking and inspire action.</p>
+              </div>
+            </div>
+
+
             <div className="jumbotron">
             <h1 class="display-4">Hello, world!</h1>
             <audio ref={this.audioPlayerRef} controls></audio>
