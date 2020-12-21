@@ -112,7 +112,8 @@ class App extends React.Component {
                 <Album data={this.filterByAlbumName('The Silenced Revolution')} playSong={this.playSong} />
               </div>
               <div className="col-sm-6">
-              <h3></h3>
+              <h3>6. Immortal Technique and Friends - House Resolution 635</h3>
+                <Album data={this.filterByAlbumName('House Resolution 635')} playSong={this.playSong} />
               </div>
             </div>
 
