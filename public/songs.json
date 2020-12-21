@@ -817,8 +817,144 @@
     "id": 101,
     "album": "House Resolution 635",
     "artist": "Immortal Technique and Friends",
-    "name": "LondonFreestyle.mp3",
+    "name": "London Freestyle",
     "path": "albums/HouseResolution635/LondonFreestyle.mp3"
+
+  },
+  {
+    "id": 102,
+    "album": "Warrior Music",
+    "artist": "Immortal Technique and Friends",
+    "name": "Intro",
+    "path": "albums/WarriorMusic/01Intro.mp3"
+
+  },
+  {
+    "id": 103,
+    "album": "Warrior Music",
+    "artist": "Immortal Technique and Friends",
+    "name": "Dear Mr President",
+    "path": "albums/WarriorMusic/03DearMrPresident.mp3"
+
+  },
+  {
+    "id": 104,
+    "album": "Warrior Music",
+    "artist": "Immortal Technique and Friends",
+    "name": "Shadow Business",
+    "path": "albums/WarriorMusic/04ShadowBusiness.mp3"
+
+  },
+  {
+    "id": 105,
+    "album": "Warrior Music",
+    "artist": "Immortal Technique and Friends",
+    "name": "Lost Your Mind",
+    "path": "albums/WarriorMusic/005LostYourMind.mp3"
+
+  },
+  {
+    "id": 106,
+    "album": "Warrior Music",
+    "artist": "Immortal Technique and Friends",
+    "name": "Propaganda",
+    "path": "albums/WarriorMusic/07Propaganda.mp3"
+
+  },
+  {
+    "id": 107,
+    "album": "Warrior Music",
+    "artist": "Immortal Technique and Friends",
+    "name": "No Tomorrow",
+    "path": "albums/WarriorMusic/08NoTomorrow.mp3"
+
+  },
+  {
+    "id": 108,
+    "album": "Warrior Music",
+    "artist": "Immortal Technique and Friends",
+    "name": "Walk Of Life",
+    "path": "albums/WarriorMusic/09WalkOfLife.mp3"
+
+  },
+  {
+    "id": 109,
+    "album": "Warrior Music",
+    "artist": "Immortal Technique and Friends",
+    "name": "AIDS Is Gold, HIV Is Platinum",
+    "path": "albums/WarriorMusic/10AIDSIsGold,HIVIsPlatinum.mp3"
+
+  },
+  {
+    "id": 110,
+    "album": "Warrior Music",
+    "artist": "Immortal Technique and Friends",
+    "name": "Walk With Me",
+    "path": "albums/WarriorMusic/12WalkWithMe.mp3"
+
+  },
+  {
+    "id": 111,
+    "album": "Warrior Music",
+    "artist": "Immortal Technique and Friends",
+    "name": "Warrior Music",
+    "path": "albums/WarriorMusic/13WarriorMusic.mp3"
+
+  },
+  {
+    "id": 112,
+    "album": "Warrior Music",
+    "artist": "Immortal Technique and Friends",
+    "name": "Freedom (Hasta la Victoria)",
+    "path": "albums/WarriorMusic/14Freedom(HastalaVictoria).mp3"
+
+  },
+  {
+    "id": 113,
+    "album": "Warrior Music",
+    "artist": "Immortal Technique and Friends",
+    "name": "The Dekonstruktion",
+    "path": "albums/WarriorMusic/15TheDekonstruktion.mp3"
+
+  },
+  {
+    "id": 114,
+    "album": "Warrior Music",
+    "artist": "Immortal Technique and Friends",
+    "name": "Watch Out",
+    "path": "albums/WarriorMusic/17WatchOut.mp3"
+
+  },
+  {
+    "id": 115,
+    "album": "Warrior Music",
+    "artist": "Immortal Technique and Friends",
+    "name": "Eternal Boundlessness",
+    "path": "albums/WarriorMusic/18EternalBoundlessness.mp3"
+
+  },
+  {
+    "id": 116,
+    "album": "Warrior Music",
+    "artist": "Immortal Technique and Friends",
+    "name": "The Globe Holderz",
+    "path": "albums/WarriorMusic/19TheGlobeHolderz.mp3"
+
+  },
+  {
+    "id": 117,
+    "album": "Warrior Music",
+    "artist": "Immortal Technique and Friends",
+    "name": "Free Mumia",
+    "path": "albums/WarriorMusic/20FreeMumia.mp3"
+
+  },
+  {
+    "id": 118,
+    "album": "Warrior Music",
+    "artist": "Immortal Technique and Friends",
+    "name": "Outro",
+    "path": "albums/WarriorMusic/21Outro.mp3"
 
   }
 ]

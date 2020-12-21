@@ -117,6 +117,18 @@ class App extends React.Component {
               </div>
             </div>
 
+
+            <div className="row">
+              <div className="col-sm-6">
+                <h3>7. Immortal Technique and Friends - Warrior Music</h3>
+                <Album data={this.filterByAlbumName('Warrior Music')} playSong={this.playSong} />
+              </div>
+              <div className="col-sm-6">
+              <h3></h3>
+              </div>
+            </div>
+
+
         </div>
 
 
