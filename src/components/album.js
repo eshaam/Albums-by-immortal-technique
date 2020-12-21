@@ -1,7 +1,7 @@
 const Album = (props) => {
   return (
-    <div>
-      <ul>
+    <div className="album">
+      <ol>
      {
       props.data.map((song) =>
        {
@@ -15,7 +15,7 @@ const Album = (props) => {
 
       })
      }
-     </ul>
+     </ol>
     </div>
 
   );

@@ -2,3 +2,14 @@
 //variables before bootstrap will override bootstrap
 @import "./variables.scss";
 @import "./bootstrap.scss";
+
+.album {
+  li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+  }
+  li:hover {
+    background: #f9f9f9;
+  }
+}

@@ -106,6 +106,8 @@ class App extends React.Component {
                    <p className="text-muted">I have been a student of his music since his first album back in 2001. Encoded is his music is views of the world and its issues in a clever, mind blowing way. </p>
                    <p className="text-muted">This website where you can stream all his tracks is inspired by his last album to date (The Martyr - Burn This), where he calls for those listening burn is music for everyone.</p>
                    <p className="text-muted">Immortal Technique's music has the capability to change thinking and inspire action.</p>
+                   <a className="nav-link" href="https://twitter.com/eshaam">Made with &#128156; by @eshaam  </a>
+
               </div>
             </div>
 
@@ -120,9 +122,9 @@ class App extends React.Component {
               </div>
 
               <div class="btn-group" role="group" aria-label="Basic example">
-                <button type="button" class="btn btn-secondary" onClick={() => this.playNext()}>Play Next</button>
-                <button type="button" class="btn btn-secondary" onClick={() => this.playRandom()} >Play Random</button>
-                <button type="button" class="btn btn-secondary" onClick={() => this.playPrev()}>Play Previous</button>
+                <button type="button" class="btn btn-secondary" onClick={() => this.playNext()}>Play Next Song</button>
+                <button type="button" class="btn btn-secondary" onClick={() => this.playRandom()} >Play Random Song</button>
+                <button type="button" class="btn btn-secondary" onClick={() => this.playPrev()}>Play Previous Song</button>
               </div>
             </div>
 
