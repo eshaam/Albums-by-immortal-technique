@@ -40,8 +40,23 @@ class App extends React.Component {
   }
 
   playNext() {
-    let currentSong = this.state.selectedTrack
-    this.playSong(currentSong.id + 1)
+    if (this.state.selectedTrack === null) {
+      alert('Please choose a song to play')
+    } else {
+      let currentSong = this.state.selectedTrack
+      this.playSong(currentSong.id + 1)
+    }
+
+  }
+
+  playPrev() {
+    if (this.state.selectedTrack === null) {
+      alert('Please choose a song to play')
+    } else {
+      let currentSong = this.state.selectedTrack
+      this.playSong(currentSong.id + -1)
+    }
+
   }
 
   playSong(id) {
@@ -88,8 +103,18 @@ class App extends React.Component {
 
             <div className="jumbotron">
             <h1 class="display-4">{this.state.selectedTrack === null ? 'Click on a song to start playing' : this.state.selectedTrack.name + ' from ' +this.state.selectedTrack.album  }</h1>
-            <audio ref={this.audioPlayerRef} controls></audio>
+              <div className="row">
+                <div className="col-sm-12">
+                  <audio ref={this.audioPlayerRef} controls></audio>
 
+                </div>
+              </div>
+
+              <div class="btn-group" role="group" aria-label="Basic example">
+                <button type="button" class="btn btn-secondary" onClick={() => this.playNext()}>Play Next</button>
+                <button type="button" class="btn btn-secondary">Middle</button>
+                <button type="button" class="btn btn-secondary" onClick={() => this.playPrev()}>Play Previous</button>
+              </div>
             </div>
 
             <div className="row">
