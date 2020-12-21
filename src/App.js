@@ -1,5 +1,7 @@
 import React , { createRef } from "react"
 import Header from '../src/layout/header'
+import Album from './components/album'
+
 class App extends React.Component {
 
   constructor(props) {
@@ -82,30 +84,11 @@ class App extends React.Component {
             <div className="row">
               <div className="col-sm-6">
                 <h3>1. Immortal Technique - Revolutionary Vol. 1</h3>
-
-                {
-                  this.filterByAlbumName('Revoltionary Vol. 1').map((song) => {
-                    return (
-                      <a onClick={() => this.playSong(song.id)}>
-                        <li key={song.id}>
-                        {song.name}<br/>
-                        </li>
-                    </a>
-                   )})
-                }
+                <Album data={this.filterByAlbumName('Revoltionary Vol. 1')} playSong={this.playSong} />
               </div>
               <div className="col-sm-6">
                 <h3>2. Immortal Technique - Revolutionary Vol. 2</h3>
-                {
-                  this.filterByAlbumName('Revoltionary Vol. 2').map((song) => {
-                    return (
-                      <a onClick={() => this.playSong(song.id)}>
-                        <li key={song.id}>
-                        {song.name}<br/>
-                        </li>
-                    </a>
-                   )})
-                }
+                <Album data={this.filterByAlbumName('Revoltionary Vol. 2')} playSong={this.playSong} />
               </div>
             </div>
 
@@ -114,31 +97,11 @@ class App extends React.Component {
             <div className="row">
               <div className="col-sm-6">
                 <h3>3. Immortal Technique - The First Passage</h3>
-
-                {
-                  this.filterByAlbumName('The First Passage').map((song) => {
-                    return (
-                      <a onClick={() => this.playSong(song.id)}>
-                        <li key={song.id}>
-                        {song.name}<br/>
-                        </li>
-                    </a>
-                   )})
-                }
+                <Album data={this.filterByAlbumName('The First Passage')} playSong={this.playSong} />
               </div>
               <div className="col-sm-6">
               <h3>4. Immortal Technique - The Final Passage</h3>
-
-                    {
-                      this.filterByAlbumName('The Final Passage').map((song) => {
-                        return (
-                          <a onClick={() => this.playSong(song.id)}>
-                            <li key={song.id}>
-                            {song.name}<br/>
-                            </li>
-                        </a>
-                      )})
-                    }
+                <Album data={this.filterByAlbumName('The Final Passage')} playSong={this.playSong} />
               </div>
             </div>
 
@@ -146,21 +109,10 @@ class App extends React.Component {
             <div className="row">
               <div className="col-sm-6">
                 <h3>5. Immortal Technique - The Silenced Revolution</h3>
-
-                {
-                  this.filterByAlbumName('The Silenced Revolution').map((song) => {
-                    return (
-                      <a onClick={() => this.playSong(song.id)}>
-                        <li key={song.id}>
-                        {song.name}<br/>
-                        </li>
-                    </a>
-                   )})
-                }
+                <Album data={this.filterByAlbumName('The Silenced Revolution')} playSong={this.playSong} />
               </div>
               <div className="col-sm-6">
               <h3></h3>
-
               </div>
             </div>
 
