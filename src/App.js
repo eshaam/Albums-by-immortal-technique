@@ -87,7 +87,7 @@ class App extends React.Component {
 
 
             <div className="jumbotron">
-            <h1 class="display-4">Hello, world!</h1>
+            <h1 class="display-4">{this.state.selectedTrack === null ? 'Click on a song to start playing' : this.state.selectedTrack.name + ' from ' +this.state.selectedTrack.album  }</h1>
             <audio ref={this.audioPlayerRef} controls></audio>
 
             </div>
