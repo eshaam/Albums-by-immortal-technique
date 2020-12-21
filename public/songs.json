@@ -956,5 +956,129 @@
     "name": "Outro",
     "path": "albums/WarriorMusic/21Outro.mp3"
 
+  },
+  {
+    "id": 119,
+    "album": "Self Education",
+    "artist": "Immortal Technique and Friends",
+    "name": "Intro",
+    "path": "albums/SelfEducation/01Intro.mp3"
+
+  },
+  {
+    "id": 120,
+    "album": "Self Education",
+    "artist": "Immortal Technique and Friends",
+    "name": "The Masterplan",
+    "path": "albums/SelfEducation/01TheMasterplan.mp3"
+
+  },
+  {
+    "id": 121,
+    "album": "Self Education",
+    "artist": "Immortal Technique and Friends",
+    "name": "Shift Of The Earth",
+    "path": "albums/SelfEducation/03ShiftOfTheEarth.mp3"
+
+  },
+  {
+    "id": 122,
+    "album": "Self Education",
+    "artist": "Immortal Technique and Friends",
+    "name": "Change",
+    "path": "albums/SelfEducation/05Change.mp3"
+
+  },
+  {
+    "id": 123,
+    "album": "Self Education",
+    "artist": "Immortal Technique and Friends",
+    "name": "Katrina",
+    "path": "albums/SelfEducation/06Katrina.mp3"
+
+  },
+  {
+    "id": 124,
+    "album": "Self Education",
+    "artist": "Immortal Technique and Friends",
+    "name": "I Am What I Am",
+    "path": "albums/SelfEducation/07IAmWhatIAm.mp3"
+
+  },
+  {
+    "id": 125,
+    "album": "Self Education",
+    "artist": "Immortal Technique and Friends",
+    "name": "Tales Of The Lost Tribe",
+    "path": "albums/SelfEducation/09TalesOfTheLostTribe.mp3"
+
+  },
+  {
+    "id": 126,
+    "album": "Self Education",
+    "artist": "Immortal Technique and Friends",
+    "name": "Betrayed",
+    "path": "albums/SelfEducation/10Betrayed.mp3"
+
+  },
+  {
+    "id": 127,
+    "album": "Self Education",
+    "artist": "Immortal Technique and Friends",
+    "name": "The Revolution Is Here",
+    "path": "albums/SelfEducation/12TheRevolutionIsHere.mp3"
+
+  },
+  {
+    "id": 128,
+    "album": "Self Education",
+    "artist": "Immortal Technique and Friends",
+    "name": "Shattered Dreamz",
+    "path": "albums/SelfEducation/13ShatteredDreamz.mp3"
+
+  },
+  {
+    "id": 129,
+    "album": "Self Education",
+    "artist": "Immortal Technique and Friends",
+    "name": "Reality Of Cash",
+    "path": "albums/SelfEducation/14RealityOfCash.mp3"
+
+  },
+  {
+    "id": 130,
+    "album": "Self Education",
+    "artist": "Immortal Technique and Friends",
+    "name": "Enlightenment",
+    "path": "albums/SelfEducation/15Enlightenment.mp3"
+
+  },
+  {
+    "id": 131,
+    "album": "Self Education",
+    "artist": "Immortal Technique and Friends",
+    "name": "The Struggle",
+    "path": "albums/SelfEducation/17TheStruggle.mp3"
+
+  },
+  {
+    "id": 132,
+    "album": "Self Education",
+    "artist": "Immortal Technique and Friends",
+    "name": "The Ritual",
+    "path": "albums/SelfEducation/19TheRitual.mp3"
+
+  },
+  {
+    "id": 133,
+    "album": "Self Education",
+    "artist": "Immortal Technique and Friends",
+    "name": "Outro",
+    "path": "albums/SelfEducation/21Outro.mp3"
+
   }
+
+
+
+
 ]

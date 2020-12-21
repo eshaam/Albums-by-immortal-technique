@@ -124,7 +124,8 @@ class App extends React.Component {
                 <Album data={this.filterByAlbumName('Warrior Music')} playSong={this.playSong} />
               </div>
               <div className="col-sm-6">
-              <h3></h3>
+              <h3>8. Immortal Technique and Friends - Self Education</h3>
+                <Album data={this.filterByAlbumName('Self Education')} playSong={this.playSong} />
               </div>
             </div>
 
