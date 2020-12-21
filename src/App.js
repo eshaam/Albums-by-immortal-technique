@@ -131,11 +131,12 @@ class App extends React.Component {
 
             <div className="row">
               <div className="col-sm-6">
-                <h3>7. Immortal Technique and Friends - The CIA Hits</h3>
+                <h3>9. Immortal Technique and Friends - The CIA Hits</h3>
                 <Album data={this.filterByAlbumName('The CIA Hits')} playSong={this.playSong} />
               </div>
               <div className="col-sm-6">
-
+              <h3>10. Immortal Technique - The 3rd World</h3>
+                <Album data={this.filterByAlbumName('The 3rd World')} playSong={this.playSong} />
               </div>
             </div>
 
