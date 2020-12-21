@@ -140,6 +140,13 @@ class App extends React.Component {
               </div>
             </div>
 
+            <div className="row">
+              <div className="col-sm-12">
+                <h3>11. Immortal Technique - The Martyr</h3>
+                <Album data={this.filterByAlbumName('The Martyr')} playSong={this.playSong} />
+              </div>
+            </div>
+
 
         </div>
 
